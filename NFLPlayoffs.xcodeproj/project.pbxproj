@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8759DA2C1FFE9205003F8749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA2B1FFE9205003F8749 /* AppDelegate.swift */; };
+		8759DA2E1FFE9205003F8749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA2D1FFE9205003F8749 /* ViewController.swift */; };
+		8759DA311FFE9205003F8749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8759DA2F1FFE9205003F8749 /* Main.storyboard */; };
+		8759DA341FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA321FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld */; };
+		8759DA361FFE9205003F8749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8759DA351FFE9205003F8749 /* Assets.xcassets */; };
+		8759DA391FFE9205003F8749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8759DA371FFE9205003F8749 /* LaunchScreen.storyboard */; };
+		8759DA441FFE9205003F8749 /* NFLPlayoffsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA431FFE9205003F8749 /* NFLPlayoffsTests.swift */; };
+		8759DA4F1FFE9205003F8749 /* NFLPlayoffsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA4E1FFE9205003F8749 /* NFLPlayoffsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8759DA401FFE9205003F8749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8759DA201FFE9205003F8749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8759DA271FFE9205003F8749;
+			remoteInfo = NFLPlayoffs;
+		};
+		8759DA4B1FFE9205003F8749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8759DA201FFE9205003F8749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8759DA271FFE9205003F8749;
+			remoteInfo = NFLPlayoffs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8759DA281FFE9205003F8749 /* NFLPlayoffs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLPlayoffs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8759DA2B1FFE9205003F8749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8759DA2D1FFE9205003F8749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8759DA301FFE9205003F8749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8759DA331FFE9205003F8749 /* NFLPlayoffs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFLPlayoffs.xcdatamodel; sourceTree = "<group>"; };
+		8759DA351FFE9205003F8749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8759DA381FFE9205003F8749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8759DA3A1FFE9205003F8749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8759DA3F1FFE9205003F8749 /* NFLPlayoffsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFLPlayoffsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8759DA431FFE9205003F8749 /* NFLPlayoffsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLPlayoffsTests.swift; sourceTree = "<group>"; };
+		8759DA451FFE9205003F8749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8759DA4A1FFE9205003F8749 /* NFLPlayoffsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFLPlayoffsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8759DA4E1FFE9205003F8749 /* NFLPlayoffsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLPlayoffsUITests.swift; sourceTree = "<group>"; };
+		8759DA501FFE9205003F8749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8759DA251FFE9205003F8749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8759DA3C1FFE9205003F8749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8759DA471FFE9205003F8749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8759DA1F1FFE9204003F8749 = {
+			isa = PBXGroup;
+			children = (
+				8759DA2A1FFE9205003F8749 /* NFLPlayoffs */,
+				8759DA421FFE9205003F8749 /* NFLPlayoffsTests */,
+				8759DA4D1FFE9205003F8749 /* NFLPlayoffsUITests */,
+				8759DA291FFE9205003F8749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8759DA291FFE9205003F8749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8759DA281FFE9205003F8749 /* NFLPlayoffs.app */,
+				8759DA3F1FFE9205003F8749 /* NFLPlayoffsTests.xctest */,
+				8759DA4A1FFE9205003F8749 /* NFLPlayoffsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8759DA2A1FFE9205003F8749 /* NFLPlayoffs */ = {
+			isa = PBXGroup;
+			children = (
+				8759DA2B1FFE9205003F8749 /* AppDelegate.swift */,
+				8759DA2D1FFE9205003F8749 /* ViewController.swift */,
+				8759DA2F1FFE9205003F8749 /* Main.storyboard */,
+				8759DA351FFE9205003F8749 /* Assets.xcassets */,
+				8759DA371FFE9205003F8749 /* LaunchScreen.storyboard */,
+				8759DA3A1FFE9205003F8749 /* Info.plist */,
+				8759DA321FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld */,
+			);
+			path = NFLPlayoffs;
+			sourceTree = "<group>";
+		};
+		8759DA421FFE9205003F8749 /* NFLPlayoffsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8759DA431FFE9205003F8749 /* NFLPlayoffsTests.swift */,
+				8759DA451FFE9205003F8749 /* Info.plist */,
+			);
+			path = NFLPlayoffsTests;
+			sourceTree = "<group>";
+		};
+		8759DA4D1FFE9205003F8749 /* NFLPlayoffsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8759DA4E1FFE9205003F8749 /* NFLPlayoffsUITests.swift */,
+				8759DA501FFE9205003F8749 /* Info.plist */,
+			);
+			path = NFLPlayoffsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8759DA271FFE9205003F8749 /* NFLPlayoffs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8759DA531FFE9205003F8749 /* Build configuration list for PBXNativeTarget "NFLPlayoffs" */;
+			buildPhases = (
+				8759DA241FFE9205003F8749 /* Sources */,
+				8759DA251FFE9205003F8749 /* Frameworks */,
+				8759DA261FFE9205003F8749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFLPlayoffs;
+			productName = NFLPlayoffs;
+			productReference = 8759DA281FFE9205003F8749 /* NFLPlayoffs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8759DA3E1FFE9205003F8749 /* NFLPlayoffsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8759DA561FFE9205003F8749 /* Build configuration list for PBXNativeTarget "NFLPlayoffsTests" */;
+			buildPhases = (
+				8759DA3B1FFE9205003F8749 /* Sources */,
+				8759DA3C1FFE9205003F8749 /* Frameworks */,
+				8759DA3D1FFE9205003F8749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8759DA411FFE9205003F8749 /* PBXTargetDependency */,
+			);
+			name = NFLPlayoffsTests;
+			productName = NFLPlayoffsTests;
+			productReference = 8759DA3F1FFE9205003F8749 /* NFLPlayoffsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8759DA491FFE9205003F8749 /* NFLPlayoffsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8759DA591FFE9205003F8749 /* Build configuration list for PBXNativeTarget "NFLPlayoffsUITests" */;
+			buildPhases = (
+				8759DA461FFE9205003F8749 /* Sources */,
+				8759DA471FFE9205003F8749 /* Frameworks */,
+				8759DA481FFE9205003F8749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8759DA4C1FFE9205003F8749 /* PBXTargetDependency */,
+			);
+			name = NFLPlayoffsUITests;
+			productName = NFLPlayoffsUITests;
+			productReference = 8759DA4A1FFE9205003F8749 /* NFLPlayoffsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8759DA201FFE9205003F8749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AmarBhatia;
+				TargetAttributes = {
+					8759DA271FFE9205003F8749 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8759DA3E1FFE9205003F8749 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8759DA271FFE9205003F8749;
+					};
+					8759DA491FFE9205003F8749 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8759DA271FFE9205003F8749;
+					};
+				};
+			};
+			buildConfigurationList = 8759DA231FFE9205003F8749 /* Build configuration list for PBXProject "NFLPlayoffs" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8759DA1F1FFE9204003F8749;
+			productRefGroup = 8759DA291FFE9205003F8749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8759DA271FFE9205003F8749 /* NFLPlayoffs */,
+				8759DA3E1FFE9205003F8749 /* NFLPlayoffsTests */,
+				8759DA491FFE9205003F8749 /* NFLPlayoffsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8759DA261FFE9205003F8749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8759DA391FFE9205003F8749 /* LaunchScreen.storyboard in Resources */,
+				8759DA361FFE9205003F8749 /* Assets.xcassets in Resources */,
+				8759DA311FFE9205003F8749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8759DA3D1FFE9205003F8749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8759DA481FFE9205003F8749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8759DA241FFE9205003F8749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8759DA2E1FFE9205003F8749 /* ViewController.swift in Sources */,
+				8759DA341FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld in Sources */,
+				8759DA2C1FFE9205003F8749 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8759DA3B1FFE9205003F8749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8759DA441FFE9205003F8749 /* NFLPlayoffsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8759DA461FFE9205003F8749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8759DA4F1FFE9205003F8749 /* NFLPlayoffsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8759DA411FFE9205003F8749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8759DA271FFE9205003F8749 /* NFLPlayoffs */;
+			targetProxy = 8759DA401FFE9205003F8749 /* PBXContainerItemProxy */;
+		};
+		8759DA4C1FFE9205003F8749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8759DA271FFE9205003F8749 /* NFLPlayoffs */;
+			targetProxy = 8759DA4B1FFE9205003F8749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8759DA2F1FFE9205003F8749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8759DA301FFE9205003F8749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8759DA371FFE9205003F8749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8759DA381FFE9205003F8749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8759DA511FFE9205003F8749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8759DA521FFE9205003F8749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8759DA541FFE9205003F8749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = NFLPlayoffs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.NFLPlayoffs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8759DA551FFE9205003F8749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = NFLPlayoffs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.NFLPlayoffs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8759DA571FFE9205003F8749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = NFLPlayoffsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.NFLPlayoffsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFLPlayoffs.app/NFLPlayoffs";
+			};
+			name = Debug;
+		};
+		8759DA581FFE9205003F8749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = NFLPlayoffsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.NFLPlayoffsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFLPlayoffs.app/NFLPlayoffs";
+			};
+			name = Release;
+		};
+		8759DA5A1FFE9205003F8749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = NFLPlayoffsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.NFLPlayoffsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFLPlayoffs;
+			};
+			name = Debug;
+		};
+		8759DA5B1FFE9205003F8749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = NFLPlayoffsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.NFLPlayoffsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFLPlayoffs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8759DA231FFE9205003F8749 /* Build configuration list for PBXProject "NFLPlayoffs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8759DA511FFE9205003F8749 /* Debug */,
+				8759DA521FFE9205003F8749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8759DA531FFE9205003F8749 /* Build configuration list for PBXNativeTarget "NFLPlayoffs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8759DA541FFE9205003F8749 /* Debug */,
+				8759DA551FFE9205003F8749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8759DA561FFE9205003F8749 /* Build configuration list for PBXNativeTarget "NFLPlayoffsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8759DA571FFE9205003F8749 /* Debug */,
+				8759DA581FFE9205003F8749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8759DA591FFE9205003F8749 /* Build configuration list for PBXNativeTarget "NFLPlayoffsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8759DA5A1FFE9205003F8749 /* Debug */,
+				8759DA5B1FFE9205003F8749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8759DA321FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8759DA331FFE9205003F8749 /* NFLPlayoffs.xcdatamodel */,
+			);
+			currentVersion = 8759DA331FFE9205003F8749 /* NFLPlayoffs.xcdatamodel */;
+			path = NFLPlayoffs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8759DA201FFE9205003F8749 /* Project object */;
+}
