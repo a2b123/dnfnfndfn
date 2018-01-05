@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8710A9A61FFEA96E00AA591E /* NFCDivisionalController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9A51FFEA96E00AA591E /* NFCDivisionalController .swift */; };
+		8710A9A81FFEA9AA00AA591E /* NFCDivisionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9A71FFEA9AA00AA591E /* NFCDivisionCell.swift */; };
+		8710A9AA1FFEA9B700AA591E /* AFCDivisionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9A91FFEA9B600AA591E /* AFCDivisionCell.swift */; };
+		8710A9AC1FFEA9C600AA591E /* AFCDivisionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9AB1FFEA9C600AA591E /* AFCDivisionalController.swift */; };
+		8710A9B01FFEA9F600AA591E /* AFCConfrenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9AF1FFEA9F600AA591E /* AFCConfrenceCell.swift */; };
+		8710A9B21FFEAA1500AA591E /* AFCConfrenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9B11FFEAA1500AA591E /* AFCConfrenceController.swift */; };
+		8710A9B41FFEAA1F00AA591E /* NFCConfrenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9B31FFEAA1F00AA591E /* NFCConfrenceCell.swift */; };
+		8710A9B61FFEAA2B00AA591E /* NFCConfrenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9B51FFEAA2B00AA591E /* NFCConfrenceController.swift */; };
+		8710A9B81FFEAB2100AA591E /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9B71FFEAB2100AA591E /* InfoCell.swift */; };
+		8710A9BB1FFEB41500AA591E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9BA1FFEB41500AA591E /* Helpers.swift */; };
+		8710A9BF1FFEE0E700AA591E /* AFCWildcardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9BE1FFEE0E700AA591E /* AFCWildcardController.swift */; };
+		8710A9C11FFEE0F200AA591E /* NFCWildcardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9C01FFEE0F200AA591E /* NFCWildcardController.swift */; };
+		8710A9C31FFEE10D00AA591E /* NFCWildcardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9C21FFEE10D00AA591E /* NFCWildcardCell.swift */; };
+		8710A9C51FFEE11C00AA591E /* AFCWildcardCell .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9C41FFEE11C00AA591E /* AFCWildcardCell .swift */; };
+		8710A9C81FFEE68000AA591E /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9C71FFEE68000AA591E /* TeamModel.swift */; };
+		8710A9CA1FFEE71800AA591E /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9C91FFEE71800AA591E /* CityModel.swift */; };
+		8710A9CC1FFEEEE700AA591E /* GameInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9CB1FFEEEE700AA591E /* GameInfoModel.swift */; };
 		8759DA2C1FFE9205003F8749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA2B1FFE9205003F8749 /* AppDelegate.swift */; };
-		8759DA2E1FFE9205003F8749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA2D1FFE9205003F8749 /* ViewController.swift */; };
+		8759DA2E1FFE9205003F8749 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA2D1FFE9205003F8749 /* MainController.swift */; };
 		8759DA311FFE9205003F8749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8759DA2F1FFE9205003F8749 /* Main.storyboard */; };
 		8759DA341FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA321FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld */; };
 		8759DA361FFE9205003F8749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8759DA351FFE9205003F8749 /* Assets.xcassets */; };
 		8759DA391FFE9205003F8749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8759DA371FFE9205003F8749 /* LaunchScreen.storyboard */; };
 		8759DA441FFE9205003F8749 /* NFLPlayoffsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA431FFE9205003F8749 /* NFLPlayoffsTests.swift */; };
 		8759DA4F1FFE9205003F8749 /* NFLPlayoffsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA4E1FFE9205003F8749 /* NFLPlayoffsUITests.swift */; };
+		8759DA5D1FFE9453003F8749 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA5C1FFE9453003F8749 /* MainCell.swift */; };
+		8759DA5F1FFE946C003F8749 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA5E1FFE946C003F8749 /* Extension.swift */; };
+		8759DA641FFE953A003F8749 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA631FFE953A003F8749 /* BaseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +55,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8710A9A51FFEA96E00AA591E /* NFCDivisionalController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NFCDivisionalController .swift"; sourceTree = "<group>"; };
+		8710A9A71FFEA9AA00AA591E /* NFCDivisionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDivisionCell.swift; sourceTree = "<group>"; };
+		8710A9A91FFEA9B600AA591E /* AFCDivisionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCDivisionCell.swift; sourceTree = "<group>"; };
+		8710A9AB1FFEA9C600AA591E /* AFCDivisionalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCDivisionalController.swift; sourceTree = "<group>"; };
+		8710A9AF1FFEA9F600AA591E /* AFCConfrenceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCConfrenceCell.swift; sourceTree = "<group>"; };
+		8710A9B11FFEAA1500AA591E /* AFCConfrenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCConfrenceController.swift; sourceTree = "<group>"; };
+		8710A9B31FFEAA1F00AA591E /* NFCConfrenceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCConfrenceCell.swift; sourceTree = "<group>"; };
+		8710A9B51FFEAA2B00AA591E /* NFCConfrenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCConfrenceController.swift; sourceTree = "<group>"; };
+		8710A9B71FFEAB2100AA591E /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		8710A9BA1FFEB41500AA591E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8710A9BE1FFEE0E700AA591E /* AFCWildcardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFCWildcardController.swift; sourceTree = "<group>"; };
+		8710A9C01FFEE0F200AA591E /* NFCWildcardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWildcardController.swift; sourceTree = "<group>"; };
+		8710A9C21FFEE10D00AA591E /* NFCWildcardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWildcardCell.swift; sourceTree = "<group>"; };
+		8710A9C41FFEE11C00AA591E /* AFCWildcardCell .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AFCWildcardCell .swift"; sourceTree = "<group>"; };
+		8710A9C71FFEE68000AA591E /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		8710A9C91FFEE71800AA591E /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		8710A9CB1FFEEEE700AA591E /* GameInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfoModel.swift; sourceTree = "<group>"; };
 		8759DA281FFE9205003F8749 /* NFLPlayoffs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLPlayoffs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8759DA2B1FFE9205003F8749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8759DA2D1FFE9205003F8749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8759DA2D1FFE9205003F8749 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		8759DA301FFE9205003F8749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8759DA331FFE9205003F8749 /* NFLPlayoffs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFLPlayoffs.xcdatamodel; sourceTree = "<group>"; };
 		8759DA351FFE9205003F8749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +86,9 @@
 		8759DA4A1FFE9205003F8749 /* NFLPlayoffsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFLPlayoffsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8759DA4E1FFE9205003F8749 /* NFLPlayoffsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLPlayoffsUITests.swift; sourceTree = "<group>"; };
 		8759DA501FFE9205003F8749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8759DA5C1FFE9453003F8749 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		8759DA5E1FFE946C003F8749 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8759DA631FFE953A003F8749 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +116,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8710A9AD1FFEA9D200AA591E /* AFC - Confrence */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9AF1FFEA9F600AA591E /* AFCConfrenceCell.swift */,
+				8710A9B11FFEAA1500AA591E /* AFCConfrenceController.swift */,
+			);
+			path = "AFC - Confrence";
+			sourceTree = "<group>";
+		};
+		8710A9AE1FFEA9DF00AA591E /* NFC - Confrence */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9B31FFEAA1F00AA591E /* NFCConfrenceCell.swift */,
+				8710A9B51FFEAA2B00AA591E /* NFCConfrenceController.swift */,
+			);
+			path = "NFC - Confrence";
+			sourceTree = "<group>";
+		};
+		8710A9B91FFEB36B00AA591E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8759DA631FFE953A003F8749 /* BaseCell.swift */,
+				8759DA5E1FFE946C003F8749 /* Extension.swift */,
+				8710A9BA1FFEB41500AA591E /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8710A9BC1FFEE0B500AA591E /* NFC - Wildcard */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9C21FFEE10D00AA591E /* NFCWildcardCell.swift */,
+				8710A9C01FFEE0F200AA591E /* NFCWildcardController.swift */,
+				8759DA621FFE94CA003F8749 /* NFC - Division */,
+			);
+			path = "NFC - Wildcard";
+			sourceTree = "<group>";
+		};
+		8710A9BD1FFEE0BD00AA591E /* AFC - Wildcard */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9C41FFEE11C00AA591E /* AFCWildcardCell .swift */,
+				8710A9BE1FFEE0E700AA591E /* AFCWildcardController.swift */,
+				8759DA611FFE94C5003F8749 /* AFC - Division */,
+			);
+			path = "AFC - Wildcard";
+			sourceTree = "<group>";
+		};
+		8710A9C61FFEE66F00AA591E /* TeamModel */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9C71FFEE68000AA591E /* TeamModel.swift */,
+				8710A9C91FFEE71800AA591E /* CityModel.swift */,
+				8710A9CB1FFEEEE700AA591E /* GameInfoModel.swift */,
+			);
+			path = TeamModel;
+			sourceTree = "<group>";
+		};
 		8759DA1F1FFE9204003F8749 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				8759DA2B1FFE9205003F8749 /* AppDelegate.swift */,
-				8759DA2D1FFE9205003F8749 /* ViewController.swift */,
+				8710A9C61FFEE66F00AA591E /* TeamModel */,
+				8710A9B91FFEB36B00AA591E /* Helpers */,
+				8759DA601FFE94BD003F8749 /* Main */,
 				8759DA2F1FFE9205003F8749 /* Main.storyboard */,
 				8759DA351FFE9205003F8749 /* Assets.xcassets */,
 				8759DA371FFE9205003F8749 /* LaunchScreen.storyboard */,
@@ -126,6 +226,38 @@
 				8759DA501FFE9205003F8749 /* Info.plist */,
 			);
 			path = NFLPlayoffsUITests;
+			sourceTree = "<group>";
+		};
+		8759DA601FFE94BD003F8749 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9B71FFEAB2100AA591E /* InfoCell.swift */,
+				8759DA5C1FFE9453003F8749 /* MainCell.swift */,
+				8759DA2D1FFE9205003F8749 /* MainController.swift */,
+				8710A9BD1FFEE0BD00AA591E /* AFC - Wildcard */,
+				8710A9BC1FFEE0B500AA591E /* NFC - Wildcard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8759DA611FFE94C5003F8749 /* AFC - Division */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9A91FFEA9B600AA591E /* AFCDivisionCell.swift */,
+				8710A9AB1FFEA9C600AA591E /* AFCDivisionalController.swift */,
+				8710A9AD1FFEA9D200AA591E /* AFC - Confrence */,
+			);
+			path = "AFC - Division";
+			sourceTree = "<group>";
+		};
+		8759DA621FFE94CA003F8749 /* NFC - Division */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9A71FFEA9AA00AA591E /* NFCDivisionCell.swift */,
+				8710A9A51FFEA96E00AA591E /* NFCDivisionalController .swift */,
+				8710A9AE1FFEA9DF00AA591E /* NFC - Confrence */,
+			);
+			path = "NFC - Division";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +394,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8759DA2E1FFE9205003F8749 /* ViewController.swift in Sources */,
+				8759DA5F1FFE946C003F8749 /* Extension.swift in Sources */,
+				8759DA2E1FFE9205003F8749 /* MainController.swift in Sources */,
+				8710A9AC1FFEA9C600AA591E /* AFCDivisionalController.swift in Sources */,
 				8759DA341FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld in Sources */,
+				8710A9B21FFEAA1500AA591E /* AFCConfrenceController.swift in Sources */,
+				8710A9A81FFEA9AA00AA591E /* NFCDivisionCell.swift in Sources */,
+				8710A9C31FFEE10D00AA591E /* NFCWildcardCell.swift in Sources */,
+				8710A9CC1FFEEEE700AA591E /* GameInfoModel.swift in Sources */,
+				8759DA5D1FFE9453003F8749 /* MainCell.swift in Sources */,
+				8710A9B61FFEAA2B00AA591E /* NFCConfrenceController.swift in Sources */,
+				8710A9C51FFEE11C00AA591E /* AFCWildcardCell .swift in Sources */,
+				8759DA641FFE953A003F8749 /* BaseCell.swift in Sources */,
+				8710A9C81FFEE68000AA591E /* TeamModel.swift in Sources */,
+				8710A9CA1FFEE71800AA591E /* CityModel.swift in Sources */,
 				8759DA2C1FFE9205003F8749 /* AppDelegate.swift in Sources */,
+				8710A9B41FFEAA1F00AA591E /* NFCConfrenceCell.swift in Sources */,
+				8710A9BB1FFEB41500AA591E /* Helpers.swift in Sources */,
+				8710A9B01FFEA9F600AA591E /* AFCConfrenceCell.swift in Sources */,
+				8710A9BF1FFEE0E700AA591E /* AFCWildcardController.swift in Sources */,
+				8710A9AA1FFEA9B700AA591E /* AFCDivisionCell.swift in Sources */,
+				8710A9A61FFEA96E00AA591E /* NFCDivisionalController .swift in Sources */,
+				8710A9B81FFEAB2100AA591E /* InfoCell.swift in Sources */,
+				8710A9C11FFEE0F200AA591E /* NFCWildcardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
