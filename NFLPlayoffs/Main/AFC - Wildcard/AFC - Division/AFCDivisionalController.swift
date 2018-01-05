@@ -65,14 +65,6 @@ class AFCDivisionController: UICollectionViewController, UICollectionViewDelegat
         
         if indexPath.item % 2 == 0 {
             
-            
-            if indexPath.item == 4 {
-                let cell = collectionView.dequeueReusableCell(withReuseIdentifier: afcDivisionCellId, for: indexPath) as! AFCDivisionCell
-                let secondTeamSelected = selectedAFCWildcardTeams[1]
-                cell.afcDivision?.teamName = secondTeamSelected.teamName
-                print("Second Item Selected", secondTeamSelected.teamName)
-            }
-            
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: afcDivisionCellId, for: indexPath) as! AFCDivisionCell
             cell.afcDivision = afcDivisionTeams?[indexPath.item]
             
