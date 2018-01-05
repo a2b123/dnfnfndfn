@@ -24,6 +24,8 @@
 		8710A9C81FFEE68000AA591E /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9C71FFEE68000AA591E /* TeamModel.swift */; };
 		8710A9CA1FFEE71800AA591E /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9C91FFEE71800AA591E /* CityModel.swift */; };
 		8710A9CC1FFEEEE700AA591E /* GameInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9CB1FFEEEE700AA591E /* GameInfoModel.swift */; };
+		8710A9CF1FFF53E500AA591E /* SuperBowlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9CE1FFF53E500AA591E /* SuperBowlCell.swift */; };
+		8710A9D11FFF53EE00AA591E /* SuperBowlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710A9D01FFF53EE00AA591E /* SuperBowlController.swift */; };
 		8759DA2C1FFE9205003F8749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA2B1FFE9205003F8749 /* AppDelegate.swift */; };
 		8759DA2E1FFE9205003F8749 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759DA2D1FFE9205003F8749 /* MainController.swift */; };
 		8759DA311FFE9205003F8749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8759DA2F1FFE9205003F8749 /* Main.storyboard */; };
@@ -72,6 +74,8 @@
 		8710A9C71FFEE68000AA591E /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
 		8710A9C91FFEE71800AA591E /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		8710A9CB1FFEEEE700AA591E /* GameInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfoModel.swift; sourceTree = "<group>"; };
+		8710A9CE1FFF53E500AA591E /* SuperBowlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperBowlCell.swift; sourceTree = "<group>"; };
+		8710A9D01FFF53EE00AA591E /* SuperBowlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperBowlController.swift; sourceTree = "<group>"; };
 		8759DA281FFE9205003F8749 /* NFLPlayoffs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLPlayoffs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8759DA2B1FFE9205003F8749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8759DA2D1FFE9205003F8749 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -174,6 +178,15 @@
 			path = TeamModel;
 			sourceTree = "<group>";
 		};
+		8710A9CD1FFF53D600AA591E /* Super Bowl */ = {
+			isa = PBXGroup;
+			children = (
+				8710A9CE1FFF53E500AA591E /* SuperBowlCell.swift */,
+				8710A9D01FFF53EE00AA591E /* SuperBowlController.swift */,
+			);
+			path = "Super Bowl";
+			sourceTree = "<group>";
+		};
 		8759DA1F1FFE9204003F8749 = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +210,7 @@
 		8759DA2A1FFE9205003F8749 /* NFLPlayoffs */ = {
 			isa = PBXGroup;
 			children = (
+				8710A9CD1FFF53D600AA591E /* Super Bowl */,
 				8759DA2B1FFE9205003F8749 /* AppDelegate.swift */,
 				8710A9C61FFEE66F00AA591E /* TeamModel */,
 				8710A9B91FFEB36B00AA591E /* Helpers */,
@@ -395,8 +409,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8759DA5F1FFE946C003F8749 /* Extension.swift in Sources */,
+				8710A9CF1FFF53E500AA591E /* SuperBowlCell.swift in Sources */,
 				8759DA2E1FFE9205003F8749 /* MainController.swift in Sources */,
 				8710A9AC1FFEA9C600AA591E /* AFCDivisionalController.swift in Sources */,
+				8710A9D11FFF53EE00AA591E /* SuperBowlController.swift in Sources */,
 				8759DA341FFE9205003F8749 /* NFLPlayoffs.xcdatamodeld in Sources */,
 				8710A9B21FFEAA1500AA591E /* AFCConfrenceController.swift in Sources */,
 				8710A9A81FFEA9AA00AA591E /* NFCDivisionCell.swift in Sources */,

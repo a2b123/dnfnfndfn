@@ -71,6 +71,7 @@ class TeamModel: NSObject {
     }
     
     
+    /// THISSSSS
     static func afcWildcardTeams() -> ([TeamModel]) {
         var afcWildcardTeams = [TeamModel]()
         

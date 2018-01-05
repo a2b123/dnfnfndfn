@@ -13,6 +13,8 @@ class AFCConfrenceController: UICollectionViewController, UICollectionViewDelega
     private let afcConfrenceCellId = "afcConfrenceCellId"
     private let infoDivisionCellId = "infoDivisionCellId"
     private let blankCellId = "blankCellId"
+    
+    var selectedAFCDivisionTeams = [TeamModel]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +28,7 @@ class AFCConfrenceController: UICollectionViewController, UICollectionViewDelega
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 7
+        return selectedAFCDivisionTeams.count + 1
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -58,7 +60,7 @@ class AFCConfrenceController: UICollectionViewController, UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.width, height: 100)
+        return CGSize(width: view.frame.width, height: Helpers.screenSize.height / 3)
     }
 }
 
